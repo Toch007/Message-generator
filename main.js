@@ -35,18 +35,17 @@ const themes = [
 const randomIndex = (array) => Math.floor(Math.random() * array.length);
 
 // Create a function for Generating Random Inspirational Messages 
-const generateMessage =  () => {
-  //generate random indices for quotes, authors and themes
-  const quoteIndex = randomIndex(quotes);
-  const authorIndex = randomIndex(authors);
-  const themeIndex = randomIndex(themes);
+const generateMessage = () => {
+  //generate random indices for quotes.
+  const index = randomIndex(quotes);
+  
 
-  // use random indices to select quote, authors and themes using array indexing
-  const quote = quotes[quoteIndex];
-  const author = authors[authorIndex];
-  const theme = themes[themeIndex];
+  // use random indices to select quote, authors and themes using array indexing in a manner that the selection is uniformed
+  const quote = quotes[index];
+  const author = authors[index];
+  const theme = themes[index];
   
   return `Theme for the day: ${theme}\n\n"${quote}"\n- ${author}`
 
 }
-console.log(theme)
+console.log(generateMessage())
