@@ -1,5 +1,5 @@
-Project Overview
 
+<<<<<<< HEAD
 # CODE ACADEMY PROJECT
 ## RANDOM MESSAGE GENERATOR
 
@@ -16,4 +16,6 @@ For this project, you will build a message generator program. Every time a user 
 + Git and GitHub
 + Command line
 
+=======
+>>>>>>> e082822d736531b2fc3bb088c174f7cf5f430099
 ![ScreenShot of Project](image.png)
